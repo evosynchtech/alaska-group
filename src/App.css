@@ -1,0 +1,20 @@
+@media screen and (max-width: 880px) {
+  .hamburger-menu {
+    display: block !important;
+  }
+  .hamburger-menu-list {
+    display: none !important;
+  }
+}
+@media screen and (min-width: 880px) {
+  .hamburger-menu {
+    display: none !important;
+  }
+  .hamburger-menu-list {
+    display: flex !important;
+  }
+}
+
+.scroll-lock {
+  @apply relative h-full overflow-hidden;
+}
