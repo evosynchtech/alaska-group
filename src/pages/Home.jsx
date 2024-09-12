@@ -1,7 +1,7 @@
 import React from "react";
-import HeroCarousel from "../components/HeroCarousel/Carousel";
-import ContactUs from "../components/contactUs/ContactUs";
-import HomeAbout from "../components/about/HomeAbout";
+import HeroCarousel from "../components/HeroCarousel/Carousel.jsx";
+import ContactUs from "../components/contactUs/ContactUs.jsx";
+import HomeAbout from "../components/about/HomeAbout.jsx";
 
 function Home() {
   return (
